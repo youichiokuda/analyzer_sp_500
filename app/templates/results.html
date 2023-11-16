@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>分析結果</title>
+</head>
+<body>
+    <h1>分析結果</h1>
+    {% if results %}
+        <ul>
+        {% for result in results %}
+            <li>{{ result }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>条件に合致する株はありませんでした。</p>
+    {% endif %}
+</body>
+</html>

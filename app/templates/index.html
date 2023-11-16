@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>株価分析アプリ</title>
+</head>
+<body>
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.days.label }}<br>
+            {{ form.days(size=32) }}
+        </p>
+        <p>
+            {{ form.drop.label }}<br>
+            {{ form.drop(size=32) }}
+        </p>
+        <p>
+            {{ form.jump.label }}<br>
+            {{ form.jump(size=32) }}
+        </p>
+        <p>
+            {{ form.pernumber.label }}<br>
+            {{ form.pernumber(size=32) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+</body>
+</html>
