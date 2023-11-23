@@ -3,3 +3,7 @@ Flask-WTF
 pandas
 yfinance
 pandas-datareader
+datetime 
+tqdm 
+concurrent.futures 
+os
