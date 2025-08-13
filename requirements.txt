@@ -1,9 +1,6 @@
-Flask
-Flask-WTF
-pandas
 yfinance
-pandas-datareader
-datetime 
-tqdm 
-#concurrent.futures 
-#os
+pandas
+pandas_datareader
+tqdm
+lxml
+requests
