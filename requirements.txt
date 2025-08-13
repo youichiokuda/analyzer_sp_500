@@ -5,5 +5,5 @@ yfinance
 pandas-datareader
 datetime 
 tqdm 
-concurrent.futures 
+#concurrent.futures 
 os
