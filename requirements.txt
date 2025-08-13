@@ -6,4 +6,4 @@ pandas-datareader
 datetime 
 tqdm 
 #concurrent.futures 
-os
+#os
